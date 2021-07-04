@@ -1,3 +1,3 @@
-guessinggame
-echo Sun 4 Jul 2021 20:08:16 CEST
-echo 19 guessinggame.sh
+guessinggame  
+Sun 4 Jul 2021 20:13:21 CEST  
+21 guessinggame.sh
