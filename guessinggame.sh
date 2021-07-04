@@ -2,10 +2,12 @@
 function reply {
     local myVar="$1"
     if [[ $myVar -lt $(ls -l | wc -l | tr -s " ") ]]; then
+    echo "you entered $myVar"
     echo "too low"
     echo "try again"
     elif [[ $myVar -gt $(ls -l | wc -l | tr -s " ") ]]
     then
+    echo "you entered $myVar"
     echo "too high"
     echo "try again"
     fi
